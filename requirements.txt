@@ -1,0 +1,12 @@
+# MT5 Short-TF Screener — Python dependencies
+# Tested on Python 3.11 (Windows). Install with:  pip install -r requirements.txt
+#
+# These are the only third-party packages the app imports:
+#   dashboard.py / screen.py  ->  flask, werkzeug (bundled with flask),
+#                                 MetaTrader5, numpy, pandas
+#   backtest.py               ->  (strategy math, stdlib + numpy/pandas)
+Flask==3.1.3
+Werkzeug==3.1.8
+numpy==2.2.1
+pandas==2.3.3
+metatrader5==5.0.6180

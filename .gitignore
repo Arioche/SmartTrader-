@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment (self-contained but machine-specific — rebuild via start_app.bat)
+.venv/
+venv/
+
+# Runtime state / logs (regenerated on each run; keep out of history)
+dashboard_crash.log
+dashboard_watchdog.log
+exec_state.json
+exec_state.json.tmp
+exec_history.jsonl
+*.log
+
+# Backtest data & training outputs (large, regenerable)
+data_*.csv
+mt5_*.csv
+equity_*.png
+optimize_report.json
+optimize_top.csv
+optimize_run.log
